@@ -72,7 +72,7 @@ export default async function RootLayout({
     siteName = config.SiteConfig.SiteName;
     announcement = config.SiteConfig.Announcement;
     enableRegister = config.UserConfig.AllowRegister;
-    imageProxy = config.SiteConfig.ImageProxy || imageProxy;
+    imageProxy = config.SiteConfig.ImageProxy;
     doubanProxy = config.SiteConfig.DoubanProxy;
   }
 

@@ -1,6 +1,4 @@
 {
-  "installCommand": "pnpm install --frozen-lockfile",
-  "buildCommand": "pnpm build",
   "headers": [
     {
       "source": "/fonts/inter-var-latin.woff2",
