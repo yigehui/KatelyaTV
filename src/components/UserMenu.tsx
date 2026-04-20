@@ -623,7 +623,7 @@ export const UserMenu: React.FC = () => {
                   ? 'border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400'
                   : 'border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800/50 text-gray-400 dark:text-gray-500 placeholder-gray-400 dark:placeholder-gray-600 cursor-not-allowed'
               }`}
-              placeholder='例如: https://imageproxy.example.com/?url='
+              placeholder='例如: /api/image-proxy?url= 或 https://imageproxy.example.com/?url='
               value={imageProxyUrl}
               onChange={(e) => handleImageProxyUrlChange(e.target.value)}
               disabled={!enableImageProxy}

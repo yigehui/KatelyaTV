@@ -1558,7 +1558,7 @@ const SiteConfigComponent = ({ config }: { config: AdminConfig | null }) => {
         </label>
         <input
           type='text'
-          placeholder='例如: https://imageproxy.example.com/?url='
+          placeholder='例如: /api/image-proxy?url= 或 https://imageproxy.example.com/?url='
           value={siteSettings.ImageProxy}
           onChange={(e) =>
             !isD1Storage &&
